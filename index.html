@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BINGO</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-        <table id="tblbingo"></table>
-    </div>
-    <div class="letter-div">
+      <table id="tblbingo">
+        <tr class="table-title">
+          <td class="letter-b">B</td>
+          <td class="letter-i">I</td>
+          <td class="letter-n">N</td>
+          <td class="letter-g">G</td>
+          <td class="letter-o">O</td>
+        </tr>
+        <tr class="table-subtitle">
+          <td class="range-b">1 - 15</td>
+          <td class="range-i">16 - 30</td>
+          <td class="range-n">31 - 45</td>
+          <td class="range-g">46 - 60</td>
+          <td class="range-o">61 - 75</td>
+        </tr>
+      </table>
+      <!-- <div class="letter-div">
         <table id="tblLetter">
           <tr>
-            <td class="letters-bingo">B</B></td>
-            <td class="letters-bingo">I</B></td>
-            <td class="letters-bingo">N</B></td>
-            <td class="letters-bingo">G</B></td>
-            <td class="letters-bingo">O</B></td>
+            <td class="letters-bingo">B</td>
+            <td class="letters-bingo">I</td>
+            <td class="letters-bingo">N</td>
+            <td class="letters-bingo">G</td>
+            <td class="letters-bingo">O</td>
           </tr>
         </table>
+      </div> -->
     </div>
-</body>
+    <footer>
+      <button id="fill">Ingresar</button>
+      <button id="clean">Limpiar</button>
+    </footer>
+  </body>
 </html>
